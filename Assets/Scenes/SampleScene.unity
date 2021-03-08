@@ -349,6 +349,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _mainCamera: {fileID: 1375846722}
   _playerGameObject: {fileID: 7067743044053376892, guid: ccf91f8d612d1b844bb1d73219754727, type: 3}
+  _skillObject: {fileID: 7593583657459161459, guid: dfcab73e9249d7d4c827dfd3cbff495c, type: 3}
   _levelGenerationData:
   - {fileID: 11400000, guid: 6cd5ee676a1322f439a24142edcd117d, type: 2}
   - {fileID: 11400000, guid: 21e0badc0ee186b4882311d22785eecf, type: 2}
