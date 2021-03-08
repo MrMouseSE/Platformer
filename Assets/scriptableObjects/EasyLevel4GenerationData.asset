@@ -16,7 +16,7 @@ MonoBehaviour:
   StartPlayerPosition: {x: 0, y: 2, z: 0}
   StartPartPosition: {x: -1, y: 0, z: 0}
   StartSkillPosition: {x: 0, y: 0.5, z: 0}
-  LevelSkill: 1
+  LevelSkill: 2
   LevelParts:
   - {fileID: 4285853445467725434, guid: 4da88c9a82b6d5a499ca1620590f127b, type: 3}
   - {fileID: 2045147249371517084, guid: 1c9ad011111567b42a5846917f1970dd, type: 3}

@@ -9,7 +9,10 @@ namespace gameSystems.skills
     {
         public static GameObject GenerateSkillGameObject(GameObject skillGameObject, SkillsEnum skillNum)
         {
-            skillGameObject = Object.Instantiate(skillGameObject);
+            if (!skillGameObject.scene.IsValid())
+            {
+                skillGameObject = Object.Instantiate(skillGameObject);
+            }
             var container = skillGameObject.GetComponent<SkillContainer>();
             switch (skillNum)
             {

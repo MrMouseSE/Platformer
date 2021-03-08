@@ -53,8 +53,8 @@ public class GameController : MonoBehaviour
         LevelGenerator.GenerateLevel(data, ref staticParts, ref dynamicParts, _levelPartFinalContainer);
         _levelInteractiveController = new LevelInteractiveController(staticParts, dynamicParts);
         _levelPartFinalContainer.GameController = this;
-        GameObject skillGameObject = SkillObjectGenerator.GenerateSkillGameObject(_skillObject, data.LevelSkill);
-        skillGameObject.transform.position = data.StartSkillPosition;
+        _skillObject = SkillObjectGenerator.GenerateSkillGameObject(_skillObject, data.LevelSkill);
+        _skillObject.transform.position = data.StartSkillPosition;
     }
 
     public void LevelUp()
