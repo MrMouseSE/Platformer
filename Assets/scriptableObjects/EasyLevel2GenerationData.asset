@@ -10,17 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3b25dc8c79be2ca42b5dc7917e838202, type: 3}
-  m_Name: HardLevelGenerationData
+  m_Name: EasyLevel2GenerationData
   m_EditorClassIdentifier: 
-  Level: 9
+  Level: 2
   StartPlayerPosition: {x: 0, y: 2, z: 0}
   StartPartPosition: {x: -1, y: 0, z: 0}
   StartSkillPosition: {x: 0, y: 0.5, z: 0}
-  LevelSkill: 3
+  LevelSkill: 1
   LevelParts:
   - {fileID: 4285853445467725434, guid: 4da88c9a82b6d5a499ca1620590f127b, type: 3}
-  - {fileID: 4285853445467725434, guid: 2d86217238e042c49914b58df7fa4b8d, type: 3}
   - {fileID: 2045147249371517084, guid: 1c9ad011111567b42a5846917f1970dd, type: 3}
-  - {fileID: 4285853445467725434, guid: 2a65c3e896e44fc4d821f7eb5e1e384c, type: 3}
-  - {fileID: 557147168371401488, guid: 17f284c568d3d3b4bb0d83614f68e452, type: 3}
-  LevelPartsSize: 20
+  LevelPartsSize: 10

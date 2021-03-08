@@ -351,8 +351,14 @@ MonoBehaviour:
   _playerGameObject: {fileID: 7067743044053376892, guid: ccf91f8d612d1b844bb1d73219754727, type: 3}
   _skillObject: {fileID: 7593583657459161459, guid: dfcab73e9249d7d4c827dfd3cbff495c, type: 3}
   _levelGenerationData:
+  - {fileID: 11400000, guid: 127b786d254eeb2438b891f95c469c36, type: 2}
+  - {fileID: 11400000, guid: 3c52b76c7243db544aa68d470e54e884, type: 2}
   - {fileID: 11400000, guid: 6cd5ee676a1322f439a24142edcd117d, type: 2}
+  - {fileID: 11400000, guid: dfbd7939daf84374f8d37d4fecc8be0b, type: 2}
   - {fileID: 11400000, guid: 21e0badc0ee186b4882311d22785eecf, type: 2}
+  - {fileID: 11400000, guid: c7c8dee735d76b944a3467f052ea021b, type: 2}
+  - {fileID: 11400000, guid: f0d9b36c0c3b71a4fbe2d8365e8e6354, type: 2}
+  - {fileID: 11400000, guid: 8b6021c016cfad44292b44eac0dde97b, type: 2}
   - {fileID: 11400000, guid: dfb629fa2def8bc4e9975c860392b68f, type: 2}
   _levelPartFinalContainer: {fileID: 1460097615}
 --- !u!4 &1816517906
