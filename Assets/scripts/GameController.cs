@@ -60,6 +60,7 @@ public class GameController : MonoBehaviour
     public void LevelUp()
     {
         _level++;
+        if (_level == 10) _level = 1;
         if (_level == _levelGenerationData.Capacity)
         {
             _level = 0;

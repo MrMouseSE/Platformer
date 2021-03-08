@@ -12,7 +12,7 @@ namespace playerSystems.movementSystem
 
         private static void MoveObjectForward(Rigidbody2D rb, PlayerStats stats)
         {
-            rb.AddForce(Vector2.right * stats.Speed);
+            rb.AddForce(new Vector2(1f,0.1f) * stats.Speed);
         }
     }
 }
