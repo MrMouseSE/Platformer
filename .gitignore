@@ -1,0 +1,11 @@
+﻿.idea
+UserSettings
+*.csproj
+Temp
+ProjectSettings
+Packages
+obj
+Logs
+Library/StateCache
+Library/ShaderCache
+Library
