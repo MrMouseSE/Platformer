@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b25dc8c79be2ca42b5dc7917e838202, type: 3}
+  m_Name: EasyLevelGenerationData
+  m_EditorClassIdentifier: 
+  Level: 1
+  StartPlayerPosition: {x: 0, y: 2, z: 0}
+  StartPartPosition: {x: -1, y: 0, z: 0}
+  StartSkillPosition: {x: 0, y: 0.5, z: 0}
+  LevelSkill: 1
+  LevelParts:
+  - {fileID: 4285853445467725434, guid: 4da88c9a82b6d5a499ca1620590f127b, type: 3}
+  - {fileID: 2045147249371517084, guid: 1c9ad011111567b42a5846917f1970dd, type: 3}
+  LevelPartsSize: 10
